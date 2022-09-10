@@ -38,3 +38,5 @@ else if (n == 0)
 	printf("%i iszero\n", n);
 
 }
+return (0);
+}
