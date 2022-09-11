@@ -1,4 +1,4 @@
-#include <stdi.h>
+#include <stdio.h>
 /**
  * main - printing numbers from 0-9 with cmas andspace between them
  * Description: using the main function
