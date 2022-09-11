@@ -38,7 +38,7 @@ else if (n == 0)
 
 }
 
-else (n < 0);
+else
 
 {
 
