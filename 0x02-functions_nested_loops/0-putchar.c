@@ -9,7 +9,7 @@
 int main(void)
 {
 printf("_putchar \n");
-
+/* print putchar only */
 return (0);
 
 }
