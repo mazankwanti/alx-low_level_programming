@@ -1,15 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main -entry point
- * return: always success
+ * main - Entry point 
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-printf("_putchar \n");
-/* print putchar only */
-return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('a');
+_putchar('\n');
 
+return (0)
 }
+
