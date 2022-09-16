@@ -10,17 +10,22 @@ void print_triangle(int size)
 {
 	int i = 1, a = 0;
 
+
 	if (size > 0)
+
 	{
+		
 		if (size == 1)
+		
 		{
+
 			_putchar(35);
 			_putchar('\n');
 		}
 		else
 		{
 			while (i <= size)
-			{
+			{	
 				a = 0;
 				while (a < size - i)
 				{
@@ -29,9 +34,11 @@ void print_triangle(int size)
 				}
 				a = 0;
 				while (a < i)
+				
 				{
 					putchar(35)
 					a++;
+				
 				}
 				_putchar('\n');
 				i++;
