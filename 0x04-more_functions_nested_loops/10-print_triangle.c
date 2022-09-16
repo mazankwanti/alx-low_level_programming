@@ -34,9 +34,9 @@ void print_triangle(int size)
 				}
 				a = 0;
 				while (a < i)
-				
 				{
-					putchar(35)
+
+					putchar(35);
 					a++;
 				
 				}
