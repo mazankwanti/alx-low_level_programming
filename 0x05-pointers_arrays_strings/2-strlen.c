@@ -1,24 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
- * main - generates random passwords for 101-crackme
- * Return: Always 0
+ * _strlen - return the length of a given strin
+ *
+ * @s: pointer to string to work on
+ *
+ * Return: string
  */
-int main(void)
+int _strlen(char *s)
 {
-	int sum;
-	char c;
-	
-	srand(time(NULL));
-        while (sum <= 2645)
-	{
-		c = rand() % 128;
-		sum += c;
-		putchar(c);
-	}
-	putchar(2772 - sum);
-
-	return (0);
+	int len = 0;
+	while (*(s + len) != '\0')
+		len++;
+	return (len);
 }
